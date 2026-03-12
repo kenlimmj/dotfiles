@@ -1,0 +1,7 @@
+set autoindent
+set trimblanks
+set linenumbers
+set constantshow
+set mouse
+
+include "~/.config/nano/*.nanorc"
