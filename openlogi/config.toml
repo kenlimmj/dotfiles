@@ -1,0 +1,77 @@
+schema_version = 4
+selected_device = "direct:046d:b034:serial:2411ap01yly8"
+
+[app_settings]
+launch_at_login = false
+check_for_updates = true
+auto_install_updates = true
+update_prompt_seen = true
+show_in_menu_bar = true
+capture_mouse_events = true
+app_icon = "openlogi"
+auto_download_assets = true
+asset_source = "automatic"
+thumbwheel_sensitivity = 14
+appearance = "system"
+
+[devices]
+
+[devices."direct:046d:b034:serial:2411ap01yly8"]
+thumbwheel_sensitivity = 1
+dpi = 6000
+
+[devices."direct:046d:b034:serial:2411ap01yly8".identity]
+display_name = "MX Master 3S"
+codename = "MX Master 3S For Mac"
+kind = "mouse"
+
+[devices."receiver:033d9cc2:slot:1"]
+
+[devices."direct:046d:b034:serial:2411ap01yly8".identity.model_info]
+entity_count = 3
+unit_id = [
+    0,
+    0,
+    0,
+    0,
+]
+model_ids = [
+    45108,
+    0,
+    0,
+]
+extended_model_id = 3
+
+[devices."direct:046d:b034:serial:2411ap01yly8".identity.model_info.transports]
+usb = false
+equad = false
+btle = true
+bluetooth = false
+
+[devices."direct:046d:b034:serial:2411ap01yly8".bindings]
+DpiToggle = "ToggleSmartShift"
+GestureButton = "AppExpose"
+
+[devices."direct:046d:b034:serial:2411ap01yly8".disabled_gestures.GestureButton]
+Up = "MissionControl"
+Down = "ShowDesktop"
+Left = "PrevTab"
+Right = "NextTab"
+Click = "AppExpose"
+
+[devices."direct:046d:b034:serial:2411ap01yly8".smartshift]
+mode = "ratchet"
+auto_disengage = 255
+tunable_torque = 0
+
+[keyboard]
+
+[devices."direct:046d:b034:serial:2411ap01yly8".identity.capabilities]
+buttons = true
+pointer = true
+lighting = false
+scroll_inversion = true
+hires_wheel = true
+thumbwheel = true
+haptic_feedback = false
+haptic_panel = false
